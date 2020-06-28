@@ -1,150 +1,171 @@
-#title{
-  background-color: #ff4c68;
-}
 body{
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather",serif;
+  font-size: 1rem;
+  color: #40514E;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
 }
 
 h1{
-  font-family: "Montserrat",cursive;
-  font-size: 3.5rem;
-  font-weight: 900;
-  color:#fff ;
-  line-height: 1.5;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  font-family: "Sacramento",cursive;
+  font-size: 8rem;
+  color: #66BFBF;
 }
 h2{
-  font-family: "Lilita One";
-  font-size: 3rem;
-  line-height: 1.5;
+  font-family: "Montserrat",sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 4;
+  color: #66BFBF;
+
 }
 h3{
-  font-family: "Lilita One";
-}
-p{
-  color: #8f8f8f;
-}
-.container-fluid{
-  padding: 3% 15%;
+  font-family: "Montserrat",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #11999E;
 }
 
-                        /* Navigation bar */
-
-.navbar{
-  padding:0 0 4.5rem;
+h4{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: #11999E;
 }
-
-.navbar-brand{
-  font-family: "Ubuntu";
-  font-size:2.0rem;
+h6{
+  font-family: "Montserrat",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.25em;
+  color: #11999E;
 }
-
-.nav-item{
-  padding: 0 18px;
+h7{
+  font-family: "Montserrat",sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.25em;
+  color: #11999E;
 }
-
-.nav-link{
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light"
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
 }
-
-                      /* Button */
-.download-button{
-  margin: 5% 3% 5% 0%;
-}
-
-                     /* Title Image */
-.title-img{
+.intro{
   width: 60%;
-  transform: rotate(25deg);
+  margin: auto;
+  padding: 1rem;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.youtube{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2
+}
+.midsemproject{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.skilllist{
+  border-radius: 30%;
+  float: left;
+  margin-right: 2rem;
+}
+.profilepic{
+  border-radius: 50%;
+}
+.youtube-channel{
+  border-radius: 22%;
+  float: right;
+  margin-left: 2rem;
+}
+.mid-semproject{
+  border-radius: 3%;
+  float: left;
+  margin-right: 2rem;
+}
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.bottom-cloud{
   position: absolute;
+  left: 400px;
+  bottom: 300px;
 }
-
-                      /* Features-Section */
-#features{
-  padding: 7% 15%;
-  background-color: #fff;
-  position: relative;
-  z-index: 1;
-}
-.feature-box{
-  text-align: center;
-}
-.fas{
-  padding: 30px;
-  color: #ef8172;
-}
-.fas:hover{
-  color: #ff4c68;
-}
-                    /* Testimonial Section */
-#testimonials{
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ef8172;
-  color: #ffff;
-}
-.testimonial-image{
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-#press{
-  background-color: #ef8172;
-  color: #ffff;
-  text-align: center;
-  padding-bottom: 3%;
-}
-.press-logo{
-  width: 15%;
-  margin: 20px 20px 50px;
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 20px;
 }
 
 
-                        /* PricingSection */
-#pricing{
-  padding: 20px;
-  text-align: center;
+.footer-link{
+  color: #11999E;
 }
-.pricing-column{
-  padding: 3% 2%;
-}
-
-
-                      /* call to action */
-#cta{
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.cta-heading{
-  font-family: "Montserrat",cursive;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-                        /* footer */
-
-#footer{
-  padding: 7% 15%;
-  text-align: center;
-}
-.social-icon{
-  margin: 20px 10px;
+.button {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 9px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #1111NAN 0px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
 }
 
-
-
-
-
-@media (max-width: 1028px) {
-
-  #title{
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
+.button:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
