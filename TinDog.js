@@ -2,3 +2,5 @@ alert("Hey there! I'm Snehil, this is the website created just like Tinder, for 
 var user_name = prompt("Hey, What's your name?");
 var user_lastname = prompt("hey , what's your last name?");
 alert("hey "+user_name+user_lastname" Now it's easy to arrange meet-ups for your Dogs!");
+alert("Hey this tindog.js");
+var yourName = prompt("Do you participate in Hacktoberfest?");
